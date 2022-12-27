@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: linear-gradient(to top, #DBD5D2, #96928f);
+    background-repeat: no-repeat;
+}
+
+header, main {
+    margin: 30px 30px 5px;
+    background-color: #DAD3D1;
+    color: #3f3d3a;
+}
+
+header > section, header > section > nav > ul > li {
+    display: inline-block;
+}
+
+header > section#logo {
+    margin: 5px 75px 5px 40px;
+}
+
+a {
+    color: #3f3d3a;
+    text-decoration: none;
+}
